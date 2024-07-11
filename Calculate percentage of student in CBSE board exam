@@ -1,0 +1,23 @@
+package com.company;
+import java.util.Scanner;
+
+public class CWH_ex1_sol {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your physics marks");
+        int physics = sc.nextInt();
+        System.out.println("Enter your chemistry marks");
+        int chemistry = sc.nextInt();
+        System.out.println("Enter your mathematics marks");
+        int mathematics = sc.nextInt();
+        System.out.println("Enter your english marks");
+        int english = sc.nextInt();
+        System.out.println("Enter computer science marks");
+        int computerscience = sc.nextInt();
+
+        float percentage = ((physics + chemistry + mathematics + english + computerscience) / 500.0f) * 100;
+        System.out.println("percentage");
+        System.out.println(percentage);
+
+    }
+}
